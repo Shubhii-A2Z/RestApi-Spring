@@ -4,7 +4,9 @@ import org.springframework.stereotype.Service;
 
 @Service("secondTodoService")
 public class SecondTodoService implements TodoService{
+
     @Override
+    @TimeMonitor
     public String doSomething() {
         return "Another Something";
     }
