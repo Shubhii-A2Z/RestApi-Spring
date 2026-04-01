@@ -9,5 +9,5 @@ public class SecondTodoService implements TodoService{
     @TimeMonitor
     public String doSomething() {
         return "Another Something";
-    }
+    } // Join Point
 }
